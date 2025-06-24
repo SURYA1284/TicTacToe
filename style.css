@@ -1,0 +1,62 @@
+body{
+    justify-content: center;
+    align-items: center;
+    background-image:url(xoxo\ dark.jpg);
+    display:grid;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#main{
+    border: 2px rgb(93, 193, 196) solid;
+    background-color: rgba(500,500,500,0.1);
+    box-shadow: rgba(0,0,0,1);
+    padding: 10px;
+    border-radius:60px ;
+}
+#buttons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    box-sizing:  30px border-box;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 40px;
+    font-size:  30px;
+    font-weight: bold;
+    color: black;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: rgba(229, 255, 0, 0.953);
+}
+
+#newgame,#reset{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(246, 246, 6);
+    text-align: center;
+}
+#h{
+    color: rgba(247, 247, 6, 0.93);
+    font-weight: 30;
+    text-align: center;
+    text-shadow: 30;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#msg{
+    text-align: center;
+    margin: 20px;
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellow;
+}
